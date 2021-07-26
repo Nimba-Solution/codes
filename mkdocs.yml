@@ -1,0 +1,60 @@
+site_name: Nimba Solution Code
+site_description: Nimba solution, code de conduite, regle et procedure de contribution.
+site_url: https://codes.nimbasolution.com/
+theme:
+  name: material
+  palette:
+  - scheme: default
+    primary: teal
+    accent: amber
+    toggle:
+      icon: material/lightbulb-outline
+      name: Switch to light mode
+  - scheme: slate
+    primary: teal
+    accent: amber
+    toggle:
+      icon: material/lightbulb
+      name: Switch to dark mode
+  features:
+  - search.suggest
+  - search.highlight
+  icon:
+    repo: fontawesome/brands/github-alt
+  logo: img/logo.png
+  favicon: img/logo.ico
+  language: en
+repo_name: codes/nimba-solution
+repo_url: https://github.com/Nimba-Solution/codes
+edit_uri: ''
+nav:
+- Nimba Codes Collaboration: index.md
+- Regles:
+  - tutorial/index.md
+  - tutorial/path-params.md
+- Front-End:
+  - advanced/index.md
+  - advanced/index2.md
+- Backend:
+  - deployment/index.md
+- contributing.md
+extra:
+  social:
+  - icon: fontawesome/brands/github-alt
+    link: https://github.com/Nimba-Solution/codes
+  - icon: fontawesome/brands/twitter
+    link: https://github.com/Nimba-Solution
+  generator: false
+extra_css:
+- css/termynal.css
+- css/custom.css
+extra_javascript:
+- https://unpkg.com/mermaid@8.4.6/dist/mermaid.min.js
+- js/termynal.js
+- js/custom.js
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - smarty
