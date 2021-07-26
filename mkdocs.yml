@@ -39,12 +39,12 @@ nav:
   - deployment/index.md
 - contributing.md
 extra:
+  generator: false
   social:
   - icon: fontawesome/brands/github-alt
     link: https://github.com/Nimba-Solution/codes
   - icon: fontawesome/brands/twitter
     link: https://github.com/Nimba-Solution
-  generator: false
 extra_css:
 - css/termynal.css
 - css/custom.css
@@ -53,8 +53,8 @@ extra_javascript:
 - js/termynal.js
 - js/custom.js
 markdown_extensions:
-  - pymdownx.highlight
-  - pymdownx.superfences
-  - pymdownx.tabbed
-  - pymdownx.superfences
-  - smarty
+- pymdownx.highlight
+- pymdownx.superfences
+- pymdownx.tabbed
+- pymdownx.superfences
+- smarty
